@@ -1,0 +1,50 @@
+.caption{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    right: 25px;
+    /* width: 50%;
+    height: 50%; */
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+   /* bottom:  20px;
+    right: 20px;
+    left: 20px; */
+    /* top: 20px; */
+    text-align: center;
+}
+
+#fixed-box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.3);
+    z-index: 9999999999999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#small-box{
+    background-image: url(../images/portfolio-1.jpg);
+    width: 50%;
+    height: 75%;
+    background-size: 100% 100%;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    flex-direction:row-reverse ;
+    padding: 0 20px;
+}
+
+#close-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
